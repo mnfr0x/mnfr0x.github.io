@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>MNFR</title>
+  <title>MNFR - NFT Collections</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,15 +15,16 @@
 
 </head>
 <body>
+  <img class="log" src="./assets/img/log.png" alt="Mnfr">
 <div class="perspective effect-rotate-left">
   <div class="container"><div class="outer-nav--return"></div>
     <div id="viewport" class="l-viewport">
       <div class="l-wrapper">
         <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Global" style="width: 32px;">
+          <div class="header--logo">
+            <img src="assets/img/logo.png" alt="Mnfr" style="width: 32px;">
             <p>MNFR</p>
-          </a>
+          </div>
           <div class="header--nav-toggle">
             <span></span>
           </div>
@@ -42,18 +43,22 @@
                 <h2>MNFR</h2>
                 <h3>Hello Stanger !</h3>
                 <p>Our planet is taking shape... <br> a place for the impossible and beyond your imagination.</p>
-                <img src="assets/img/about-visual.png" alt="About Us">
+                <img src="assets/img/about-visual.png" alt="Mnfr">
               </div>
               <p class="liss">Road Map:</p>
 
               <div class="about--options">
                 <a>
                   <h3>PHASE 1</h3>
-                  <p>Preparation and minting of 3 NFT collections and all their features...</p>
+                  <p>Sending Sandbox Guys and Symbiotes to the planet.</p>
                 </a>
                 <a>
                   <h3>PHASE 2</h3>
-                  <p>Preparation and publication of the main project and community expansion.</p>
+                  <p>Distribute ERC20 Token and prepare last ERC721.</p>
+                </a>
+                <a>
+                  <h3>PHASE 3</h3>
+                  <p>Reviewing for the main project, Anything is possible...</p>
                 </a>
               </div>
             </div>
@@ -64,9 +69,9 @@
               <div class="work--lockup">
                 <ul class="slider">
                   <li class="slider--item slider--item-left">
-                    <a target="_blank" href="https://sandboxguys.github.io">
+                    <a href="https://twitter.com/SandboxGuys">
                       <div class="slider--item-image">
-                        <img src="assets/img/Sandbox.png" alt="Victory">
+                        <img src="assets/img/Sandbox.png" alt="Mnfr">
                       </div>
                       <p class="slider--item-title">Sandbox Guys</p>
                       <p class="slider--item-symbol">I</p>
@@ -74,11 +79,11 @@
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
-                    <a target="_blank" href="https://twitter.com/ethVenoms">
+                    <a href="https://twitter.com/ethVenoms">
                       <div class="slider--item-image">
-                        <img src="assets/img/p2.png" alt="Metiew and Smith">
+                        <img src="assets/img/Venom.png" alt="Mnfr">
                       </div>
-                      <p class="slider--item-title">Venoms</p>
+                      <p class="slider--item-title">Venom, Symbiotes</p>
                       <p class="slider--item-symbol">II</p>
                       <p class="slider--item-description">Someone needs to watch out for our little sandy friends, they do a lot of crazy things.</p>
                     </a>
@@ -86,7 +91,7 @@
                   <li class="slider--item slider--item-right">
                     <a>
                       <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.png" alt="Alex Nowak">
+                        <img src="assets/img/Unknown.png" alt="Mnfr">
                       </div>
                       <p class="slider--item-title">Unknown</p>
                       <p class="slider--item-symbol">III</p>
@@ -119,8 +124,8 @@
               <div class="intro--banner">
                 <h1>It's all about <br> Community.</h1>
                 <p>
-                  Projects is still under construction and some things may change ! <br>
-                  more information will be released soon...
+                  Our main goal is to create a unique collection of NFTs that have features
+                  to support our community members, especially holders.
                 </p>
                 <a href="https://discord.gg/5UtqUJb8Dn" target="_blank" class="cta">Join Discord
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
@@ -128,9 +133,8 @@
                     <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
                   </g>
                   </svg>
-                  <span class="btn-background"></span>
                 </a>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
+                <img src="assets/img/introduction-visual.png" alt="Mnfr">
               </div>
               <div class="intro--options">
                 <a>
@@ -162,5 +166,16 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
+<script>
+      window.onload = function() {
+        var log = document.querySelector('.log');
+        var content = document.querySelector('.perspective');
+
+        log.addEventListener('animationend', function() {
+            content.style.display = 'block';
+            console.log("Hye");
+        });
+    };
+</script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fading Logo</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+    
+    .logo {
+        animation: fadeInOut 1s;
+        opacity: 0; /* Initially hide the logo */
+    }
+    
+    @keyframes fadeInOut {
+        0%, 100% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    
+    .content {
+        display: none; /* Initially hide the body content */
+    }
+</style>
+</head>
+<body>
+    <img class="logo" src="path_to_your_logo_image" alt="Logo">
+    <div class="content">
+        <!-- Your body content here -->
+        <h1>Welcome!</h1>
+        <p>This is the body content that will appear after the logo.</p>
+    </div>
+
+<script>
+    // After the logo has fully appeared, show the body content
+    window.onload = function() {
+        var logo = document.querySelector('.logo');
+        var content = document.querySelector('.content');
+
+        logo.addEventListener('animationend', function() {
+            content.style.display = 'block';
+        });
+    };
+</script>
+</body>
+</html>
