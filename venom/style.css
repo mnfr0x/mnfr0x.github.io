@@ -1,0 +1,220 @@
+body {
+    background-color: #1A1A21;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./bg.svg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.landing {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+.landing h5 {
+    color: white;
+}
+
+.landing h1 > span {
+    text-align: center;
+    color: #7B7B8F;
+    font-size: 0.375em;
+}
+
+button {
+    border: 3px solid #7B7B8F;
+    background: none;
+    font-size: 1.375em;
+    color: #7B7B8F;
+    padding: 10px 40px;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+} .but {
+    border-radius: 10px ;
+} button:hover {
+
+    background-color: white ;
+    border: 3px solid white;
+    color: black;
+    padding: 10px 60px;
+
+}
+
+
+
+
+
+
+
+h1,h2,h3,h4,h5 {
+    font-family: 'sora', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 4.375em;
+    margin: 0.25em 0;
+}
+
+h2 {
+    font-size: 3.5em;
+    margin: 0.25em 0.1em;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin: 0.75em 0;
+
+}
+
+h4 {
+    font-size: 1.75em;
+    margin: 0.75em 0;
+
+}
+
+h5 {
+    font-size: 1.25em;
+    margin: 0.25em 0;
+    color: #7B7B8F;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #7B7B8F;
+    font-size: 1.375em;
+    line-height: 1.75;
+}
+
+.mini {
+    margin: 0;
+    font-size: .7em;
+}
+
+
+
+.row {
+    display: flex;
+    gap: 2vw;
+}
+
+section {
+    width: 60vw;
+    padding: 0 0 8vw 0;
+}
+
+.C01 {
+    padding: 2vh 0 0 0;
+}
+
+.C02 {
+    padding: 0;
+}
+
+.C03 {
+    padding: 0 0 10vh 0;
+}
+
+.data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.quad {
+    width: 70vw;
+    gap: 5vw;
+    padding: 2vh 0 15vh 0;
+} .quad video {
+    border-radius: 25px;
+    box-shadow: 0 0 25px 10px #23232B;
+    border: 2px dashed #7B7B8F;
+}
+
+
+
+
+.card {
+    border: 3px solid #23232B;
+    width: 50%;
+    padding: 3vh;
+    height: 50vh;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.5s ease-in-out;
+} .card:hover {
+    background: #23232B;
+}
+
+.card i {
+    color: #7B7B8F;
+    font-size: 50px;
+}
+
+
+
+
+.icon {
+    display: flex;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    gap: 16px;
+
+} .icon a {
+    color: #7B7B8F;
+    transition: color 0.3s ease-in-out;
+} .icon a:hover {
+    color: #fff;
+}
+
+.texted {
+    position: fixed;
+    bottom: 32px;
+    left: 32px;
+}
+
+.texted a {
+
+    font-family: 'Inter', sans-serif;
+    color:#7B7B8F;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+    cursor: not-allowed;
+
+} .texted a:hover {
+
+    font-family: 'Inter', sans-serif;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.heads {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+} .heads a {
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #7B7B8F;
+    transition: color 0.25s ease-in-out;
+} .heads a:hover {
+    text-decoration: none;
+    color: #fff;
+}
