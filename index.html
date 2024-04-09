@@ -107,7 +107,7 @@
 				imgElement.src = './assest/img/logo/dark.png';
 			}
 
-			const expirationTime = new Date().getTime() + 10 * 1000; // or 86,400,000 milliseconds AND 12h = 12 * 60 * 60 * 1000
+			const expirationTime = new Date().getTime() + 12 * 60 * 60 * 1000;
 			localStorage.setItem('mode', JSON.stringify({ darkMode: isDarkMode, imgSrc: imgElement.src, expires: expirationTime }));
 			
 		}

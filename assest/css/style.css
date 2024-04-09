@@ -139,7 +139,7 @@ header {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 20%;
-	animation: fadeInOut 0.25s;
+	animation: fadeInOut 2s;
 	opacity: 0;
   }
   

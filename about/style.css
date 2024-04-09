@@ -110,13 +110,6 @@ section {
     margin-top: 3rem;
 }
 
-.log {
-    width: 100px; 
-    border-radius: 50%; 
-    position: absolute;
-    z-index: 1;
-}
-
 .row {
     width: 100%;
     display: flex;
