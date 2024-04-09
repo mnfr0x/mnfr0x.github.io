@@ -1,0 +1,153 @@
+.content {
+    box-sizing: border-box;
+    padding-bottom: 2%;
+}
+
+section {
+    padding: 0 15%;
+}
+
+.sm {
+    padding: 0 25%;
+}
+
+.see-2, .see-3{
+    margin-top: 10%;
+}
+
+.see-4 {
+    margin-top: 8%;
+}
+
+
+
+.see-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.see-1 img {
+    width: 80%;
+    margin-top: 2vh;
+    border-radius: 15px;
+}
+
+
+.see-3, .see-2 {
+    text-align: center;
+
+}
+
+
+.see-3 .row {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.see-4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+
+} .see-4 > div {
+
+    width: 50%;
+}
+
+.see-4 img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.web {
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.log {
+    width: 100px; 
+    border-radius: 50%; 
+    position: absolute;
+    z-index: 1;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.nons {
+    opacity: 0.1;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.but i {
+    font-size: 32px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

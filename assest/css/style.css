@@ -1,0 +1,162 @@
+:root {
+	--bg: #fff;
+	--text: #888;
+	--bold: #000;
+	--cool: #1e90ff;
+	--hover: hsl(0, 0%, 95%);
+}
+  
+
+.dark {
+	--bg: linear-gradient(to bottom, hsl(0, 0%, 0%), hsl(0, 0%, 10%));
+	--cool: #ff1493;
+	--bold: #fff;
+	--hover: #222222;
+}
+
+body {
+	height: 100vh;
+	background: var(--bg);
+	margin: 0;
+	color: var(--text);
+	font-family: "sora";
+	background-attachment: fixed;
+}
+
+.main {
+	height: 100%;
+	display: none;
+	animation: fadeIn 2s forwards;
+}
+
+p {
+	font-family: "inter";
+}
+
+nav {
+	display: flex;
+	gap: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--text);
+	transition: padding 0.5s ease-in-out;
+} 
+
+nav a:hover {
+	color: var(--bold);
+	padding-left: 1rem;
+}
+
+.active {
+	color: var(--cool);
+} 
+
+.active:hover {
+    color: var(--cool);
+	cursor: default;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+	height: 15%;
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+	padding: 0 3rem ;
+	justify-content: space-between;
+}  
+
+.navi {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+
+} .navi > div {
+	
+	display: flex;
+	gap: 0.75rem;
+	align-items: center;
+	transition: opacity 0.25s ease-in-out;
+
+} .navi > div > h1 {
+	
+	font-size: 1.5rem;
+	font-weight: 800;
+	text-decoration: none;
+	color: var(--bold);
+
+} .navi > div > svg {
+
+	fill: var(--bold);
+	width: 32px;
+}
+
+
+
+
+.media {
+	display: flex;
+	gap: 15px;
+	color: var(--text);
+
+} .media a {
+
+	font-size: 18px;
+	color: var(--bold);
+	transition: opacity 0.25s ease-in-out;
+
+} .media:hover > :not(:hover) {
+
+  opacity: 0.25;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.log {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	animation: fadeInOut 0.25s;
+	opacity: 0;
+  }
+  
+  @keyframes fadeInOut {
+	0%, 100% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+  }
+  
+  @keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+  }

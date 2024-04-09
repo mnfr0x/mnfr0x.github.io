@@ -1,181 +1,177 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>MNFR - NFT Collections</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
+    <head>
+        <title>MNFR - NFT Collections</title>
+			<!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Huh !?">
+			<!-- link -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
+        <link rel="icon" href="./assest/img/favicon/dark.png" type="image/x-icon">
+        <link rel="icon" href="./assest/img/favicon/light.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+        <link rel="stylesheet" href="./assest/css/style.css">
+			<!-- style -->
+		<style>
+			.hq img {
+				width: 40%;
+				border-radius: 25px;
+			}
 
-  <link rel="icon" href="./dark.png" type="image/x-icon">
-  <link rel="icon" href="./light.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+			.hq {
+				text-align: center;
+			}
 
-</head>
-<body>
-  <img class="log" src="./assets/img/log.png" alt="Mnfr">
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <div class="header--logo">
-            <img src="assets/img/logo.png" alt="Mnfr" style="width: 32px;">
-            <p>MNFR</p>
-          </div>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Projects</span></li>
-            <li><span>About</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="about">
-              <div class="about--banner">
-                <h2>MNFR</h2>
-                <h3>Hello Stanger !</h3>
-                <p>Our planet is taking shape... <br> a place for the impossible and beyond your imagination.</p>
-                <img src="assets/img/about-visual.png" alt="Mnfr">
-              </div>
-              <p class="liss">Road Map:</p>
+			.hq a {
+				background: var(--cool);
+				color: white;
+				text-decoration: none;
+				padding: 0.75rem 3rem;
+				border-radius: 10px;
+				opacity: 0.5;
+				font-weight: 800;
 
-              <div class="about--options">
-                <a>
-                  <h3>PHASE 1</h3>
-                  <p>Sending Sandbox Guys and Symbiotes to the planet.</p>
-                </a>
-                <a>
-                  <h3>PHASE 2</h3>
-                  <p>Distribute ERC20 Token and prepare last ERC721.</p>
-                </a>
-                <a>
-                  <h3>PHASE 3</h3>
-                  <p>Reviewing for the main project, Anything is possible...</p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="work">
-              <h2>NFT COLLECTIONS</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item slider--item-left">
-                    <a href="./sandbox-guys/">
-                      <div class="slider--item-image">
-                        <img src="assets/img/Sandbox.png" alt="Mnfr">
-                      </div>
-                      <p class="slider--item-title">Sandbox Guys</p>
-                      <p class="slider--item-symbol">SBG</p>
-                      <p class="slider--item-description">They are small cube-shaped creatures that have a strange relationship with cardboard.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="./venom/">
-                      <div class="slider--item-image">
-                        <img src="assets/img/Venom.png" alt="Mnfr">
-                      </div>
-                      <p class="slider--item-title">Venom, Symbiotes</p>
-                      <p class="slider--item-symbol">NOM</p>
-                      <p class="slider--item-description">Someone needs to watch out for our little sandy friends, they do a lot of crazy things.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a>
-                      <div class="slider--item-image">
-                        <img src="assets/img/Unknown.png" alt="Mnfr">
-                      </div>
-                      <p class="slider--item-title">Unknown</p>
-                      <p class="slider--item-symbol">III</p>
-                      <p class="slider--item-description">Charming and dangerous companions of the master, loyal and sensitive like zombies.</p>
-                    </a>
-                  </li>
-                </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
+				transition: opacity 0.5s ease-in-out, padding 0.5s ease-in-out;
+			} 
+
+			.hq a:hover {
+				opacity: 1;
+				padding: 0.75rem 4rem;
+			}
+
+			.area {
+				padding-top: 1.5rem ;
+			}
+		</style>
+    </head>
+<body>  
+	<img class="log" src="./assest/img/logo/dark.png" alt="Mnfr">
+	<div class="main">
+		<header>
+            <div class="navi">
+                <div>
+                    <svg class="logo" viewBox="0 0 3000 3000" style="enable-background:new 0 0 3000 3000;">
+                        <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)">
+                          <path class="st0" d="M850.3,2950H615.6c-54.9,0-101.8-42.9-110.8-101.4c-38.1-248-137.2-882.2-191.1-1119.7
+                              c-44.3-195.3-215.3-710.4-257.1-835.4c-6.1-18.2-8-37.6-5.8-56.8l62.2-519.2C131.5,164.6,252.2,50,395.1,50h421.3
+                              c54.9,0,101.7,42.8,110.8,101.3c30.7,198.6,99.5,634,136.7,796.9c38.3,167.8,171.8,588.4,212.7,716.1c7.8,24.3,8.2,50.6,1.2,75.2
+                              L957.7,2864.3C943.2,2915.2,899.7,2950,850.3,2950z"></path>
+                          <path class="st0" d="M2149.7,2950h234.7c54.9,0,101.8-42.9,110.8-101.4c38.1-248,137.2-882.2,191.1-1119.7
+                              c44.3-195.3,215.3-710.4,257.1-835.4c6.1-18.2,8-37.6,5.8-56.8l-62.2-519.2C2868.5,164.6,2747.8,50,2604.9,50h-421.3
+                              c-54.9,0-101.7,42.8-110.8,101.3c-30.7,198.6-99.5,634-136.7,796.9c-38.3,167.8-171.8,588.4-212.7,716.1
+                              c-7.8,24.3-8.2,50.6-1.2,75.2l319.9,1124.8C2056.8,2915.2,2100.3,2950,2149.7,2950z"></path>
+                        </g>
+                    </svg>
+                    <h1>MNFR</h1>
                 </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
+                <nav>
+                    <a class="active"><span>⌥ </span>Home<span> '</span></a>
+                    <a href="./project/"><span>⌥ </span>Project<span> '</span></a>
+                    <a href="./about/"><span>⌥ </span>About<span> '</span></a>
+                </nav>
             </div>
-          </li>
-          <li class="l-section section">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>It's all about <br> Community.</h1>
-                <p>
-                  Our main goal is to create a unique collection of NFTs that have features
-                  to support our community members, especially holders.
-                </p>
-                <a href="https://discord.gg/5UtqUJb8Dn" target="_blank" class="cta">Join Discord
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </a>
-                <img src="assets/img/introduction-visual.png" alt="Mnfr">
-              </div>
-              <div class="intro--options">
-                <a>
-                  <h3>Harvesting</h3>
-                  <p>Both of these collections are able to randomly receive a percentage for the sale of each item.</p>
-                </a>
-                <a>
-                  <h3>Staking</h3>
-                  <p>These creatures can be staked for a certain time and you can get token and other prizes.</p>
-                </a>
-                <a>
-                  <h3>Unknown</h3>
-                  <p>It will be revealed with the release of the latest project.</p>
-                </a>
-              </div>
-            </div>
-          </li>   
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Projects</li>
-    <li>About</li>
-  </ul>
-</div>
+            <div class="media">
+				<a target="_blank" href="https://x.com/0xMNFR"><i class="fab fa-twitter"></i></a>
+				<a target="_blank" href="https://discord.gg/5UtqUJb8Dn"><i class="fab fa-discord"></i></a>
+				<a title="Dark / Light" style="cursor: pointer;" onclick="toggle()"><i class="fas fa-adjust"></i></a>
+			</div>
+		</header>
+        <div class="hq">
+			<img src="./assest/img/blob.jpg">
+			<div>
+				<h1>Under Development</h1>
+				<p>Our planet is taking shape, <br> a place for the impossible and beyond your imagination...</p>
+			</div>
+			<div class="area">
+				<a href="./project/">Explore NFTs </a>
+			</div>
+        </div>
+	</div>
+	<script src="../assest/js/script.js"></script>
+	<script>
+		
+		var imgElement = document.querySelector('img');
+		const body = document.body;
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
-<script>
-      window.onload = function() {
-        var log = document.querySelector('.log');
-        var content = document.querySelector('.perspective');
+		function toggle() {
+			body.classList.toggle('dark');
 
-        log.addEventListener('animationend', function() {
-            content.style.display = 'block';
-            console.log("Hye");
-        });
-    };
-</script>
+			const isDarkMode = body.classList.contains('dark');
+
+			if (isDarkMode) {
+				imgElement.src = './assest/img/logo/light.png';
+			} else {
+				imgElement.src = './assest/img/logo/dark.png';
+			}
+
+			const expirationTime = new Date().getTime() + 10 * 1000; // or 86,400,000 milliseconds AND 12h = 12 * 60 * 60 * 1000
+			localStorage.setItem('mode', JSON.stringify({ darkMode: isDarkMode, imgSrc: imgElement.src, expires: expirationTime }));
+			
+		}
+
+		document.addEventListener('DOMContentLoaded', () => {
+		
+			check();
+
+			}
+		);
+
+		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+
+			check();
+
+			}
+		);
+
+		function check() {
+
+			const storedData = localStorage.getItem('mode');
+
+			if (storedData) {
+
+				const { darkMode, imgSrc, expires } = JSON.parse(storedData);
+				
+				const currentTime = new Date().getTime();
+
+				if (expires > currentTime) {
+
+					document.body.classList.toggle('dark', darkMode);
+
+					imgElement.src = imgSrc;
+
+				} else {
+
+					localStorage.removeItem('mode');
+					auto();
+
+				}
+			} else {
+
+				auto();
+
+			}
+		}
+
+		function auto() {
+
+			var prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+			if (prefersDarkMode) {
+
+				imgElement.src = './assest/img/logo/light.png';
+				body.classList.add('dark');
+
+			} else {
+
+				imgElement.src = './assest/img/logo/dark.png';
+				body.classList.remove('dark');
+
+			}
+
+		}
+	</script>
 </body>
 </html>
