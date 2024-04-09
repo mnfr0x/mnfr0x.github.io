@@ -136,10 +136,10 @@ section {
     width: 70vw;
     gap: 5vw;
     padding: 2vh 0 15vh 0;
-} .quad video {
+} .quad img {
+    width: 40%;
     border-radius: 25px;
     box-shadow: 0 0 25px 10px #23232B;
-    border: 2px dashed #7B7B8F;
 }
 
 

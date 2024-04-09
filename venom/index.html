@@ -6,12 +6,109 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" href="../dark.png" type="image/x-icon">
-        <link rel="icon" href="../light.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+        <link rel="icon" href="../assest/img/favicon/dark.png" type="image/x-icon">
+        <link rel="icon" href="../assest/img/favicon/light.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
 
+        <style>
+            @media only screen and (max-width: 724px) {
+                body {
+                    padding: 0 1.5rem;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-size: 45px;
+                }
+                
+                h2 {
+                    font-size: 40px;
+                }
+
+                h3 {
+                    font-size: 35px;
+                }
+
+                h4, h5 {
+                    font-size: 20px;
+                }
+
+                .landing {
+                    width: 100%;
+                }
+
+                section {
+                    width: 100%;
+                    padding: 0;
+                    padding-bottom: 20vh;
+                    text-align: center;
+                }
+
+                .row {
+                    display: block;
+                    gap: 0;
+                }
+
+                .quad {
+                    width: 100%;
+                    gap: 0;
+                    padding: 0 0 20vh 0;
+                    text-align: center;
+                } .quad img {
+
+                    width: 100%;
+                    border-radius: 25px;
+                    box-shadow: 0 0 25px 10px #23232B;
+                    border: 2px dashed #7B7B8F;
+                }
+                
+                .card {
+                    border: none;
+                    width: 0;
+                    padding: 0;
+                    height: 0;
+                    border-radius: 0;
+                    text-decoration: none;
+                }
+                
+                .data {
+                    display: flex;
+                    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+                    justify-content: space-between;
+                }
+
+                .data div {
+                    width: 50%;
+                    margin-bottom: 20px;
+                }
+
+                .icon {
+                    position: absolute;
+                    top: 40px;
+                    right: 32px;
+                    bottom: inherit;
+                }
+
+                .icon a {
+                    font-size: 20px;
+                }
+
+                .texted {
+                    display: none;
+                }
+
+                .landing h1 > span {
+                    text-align: center;
+                    color: #7B7B8F;
+                    font-size: 0.5em;
+                }
+            }
+        </style>
     </head>
     <body>
         <div class="heads">
@@ -36,7 +133,6 @@
             </div>
             <p class="mini">The public mint has not started yet !</p>
         </div>
-
         <section>
             <div>
                 <h5>UTILITY</h5>
@@ -72,16 +168,14 @@
             </div>
         </section>
         <div class="row quad">
-            <video width="400" autoplay loop>
-                <source src="nom.mp4" type="video/mp4">
-            </video>
+            <img src="./nom.png">
             <div>
                 <h4>Symbiote</h4>
                 <p>
                     These things are master dark matter that have not yet evolved, which after mutation will become the second creatures of the planet
                 </p>
-                <a>                
-                    <button style="cursor: not-allowed;" class="but">zealy.io</button >    
+                <a href="https://zealy.io/cw/venoms">                
+                    <button class="but">zealy.io</button >    
                 </a>
             </div>
         </div>
@@ -106,14 +200,17 @@
                     <p>2,000</p>
                 </div>
                 <div>
-                    <h4>Price</h4>
-                    <p>TBA</p>
+                    <h4>Public</h4>
+                    <p>0.003 ETH</p>
                 </div>
                 <div>
-                    <h4>Mint</h4>
-                    <p>TBA</p>
+                    <h4>Data</h4>
+                    <p>Friday, May 31</p>
                 </div>
-
+                <div>
+                    <h4>Private</span></h4>
+                    <p>0 ETH</p>
+                </div>
             </div>
         </section>
     </body>
