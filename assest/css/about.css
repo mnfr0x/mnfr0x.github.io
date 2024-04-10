@@ -52,7 +52,7 @@ section {
     
 }
 
-.see-3 p {
+.see-3 > p {
     padding: 0 25%;
 }
 
