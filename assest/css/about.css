@@ -1,0 +1,187 @@
+.content {
+    box-sizing: border-box;
+    padding-bottom: 2%;
+    
+}
+
+section {
+    padding: 0 15%;
+}
+
+.sm {
+    padding: 0 25%;
+}
+
+.see-2, .see-3{
+    margin-top: 10%;
+}
+
+.see-4 {
+    margin-top: 8%;
+}
+
+.owns {
+    padding-left: 3rem;
+    font-size: 10px;
+}
+
+.see-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.see-1 img {
+    width: 80%;
+    margin-top: 2vh;
+    border-radius: 15px;
+}
+
+
+.see-3, .see-2 {
+    text-align: center;
+
+}
+
+
+.see-3 .row {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.see-3 p {
+    padding: 0 25%;
+}
+
+.see-4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+
+} .see-4 > div {
+
+    width: 50%;
+}
+
+.see-4 img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.web {
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.nons {
+    opacity: 0.25;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.but i {
+    font-size: 32px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.box {
+    fill: var(--bold);
+    width: 32px;
+    padding: 16px;
+    background-color: var(--cool);
+    border-radius: 25%;
+}
+
+.but p {
+    text-decoration: none ;
+    color: var(--cool);
+    font-weight: 800;
+    padding: 0 5px;
+}
+
+.but svg {
+    fill: var(--text);
+    stroke: var(--text);
+    height: 128px;
+}
+
+.mini {
+    background: var(--cool);
+    padding: 32px;
+    height: 64px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+h2 {
+    color: var(--bold);
+}

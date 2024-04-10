@@ -13,40 +13,47 @@
         <link rel="icon" href="../assest/img/favicon/dark.png" type="image/x-icon">
         <link rel="icon" href="../assest/img/favicon/light.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
         <link rel="stylesheet" href="../assest/css/style.css">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="../assest/css/about.css">
 
         <style>
-            .box {
-                fill: var(--bold);
-	            width: 32px;
-                padding: 16px;
-                background-color: var(--cool);
-                border-radius: 25%;
-            }
+            @media only screen and (max-width: 724px) {
+                section, .sm {
+                    padding: 0 2rem;
+                    margin: 10rem 0;
+                }
+                .see-3 p {
+                    padding: 0;
+                }
 
-            .but p {
-                text-decoration: none ;
-                color: var(--cool);
-                font-weight: 800;
-                padding: 0 5px;
-            }
+                .see-4 {
+                    margin-bottom: 2rem;
+                }
 
-            .but svg {
-                fill: var(--text);
-                stroke: var(--text);
-                height: 128px;
-            }
+                .see-1 {
+                    margin-top: 2rem;
+                }
 
-            .mini {
-                background: var(--cool);
-                padding: 32px;
-                height: 64px;
-                position: absolute;
-                border-radius: 15px;
-            }
+                .see-1 img{
+                    width: 100%;
+                }
 
-            h2 {
-                color: var(--bold);
+                .see-3 .row, .see-4 {
+                    flex-direction: column;
+                }
+
+                .see-4 {
+                    flex-direction: column;
+                }
+
+                .see-4 > div {
+                    width: 100%;
+                }
+
+                .owns {
+                    font-size: 15px;
+                    text-align: center;
+                    padding: 0;
+                }
             }
         </style>
     </head>
@@ -204,7 +211,7 @@
                     <h2>
                         Numbers
                     </h2>
-                    <p style="padding: 0 25%;">
+                    <p>
                         Join us as we reimagine the potential of cryptocurrencies and NFTs, 
                         where imagination meets innovation, and together, we shape the future of digital assets.
                     </p>
@@ -250,7 +257,7 @@
                         <img src="../assest/img/harvest.png">
                     </div>
                 </section>
-                
+                <p class="owns"> Moon!? we have our own new planet... </p>
             </div>
         </div>
 	    <script src="../assest/js/script.js"></script>
