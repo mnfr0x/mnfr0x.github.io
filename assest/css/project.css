@@ -77,7 +77,11 @@ a:hover {
     border-radius: 10px;
     background-color: var(--cool);
     opacity: 0.5;
-} 
+}
+
+.text a:hover {
+    opacity: 1;
+}
 
 .card {
     width: 100%;
