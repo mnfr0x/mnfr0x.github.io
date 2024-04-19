@@ -1,89 +1,74 @@
-.content {
-    box-sizing: border-box;
-    padding-bottom: 2%;
-    
-}
+.part-1 {
 
-section {
-    padding: 0 15%;
-}
-
-.sm {
-    padding: 0 25%;
-}
-
-.see-2, .see-3{
-    margin-top: 10%;
-}
-
-.see-4 {
-    margin-top: 8%;
-}
-
-.owns {
-    padding-left: 3rem;
-    font-size: 10px;
-}
-
-.see-1 {
+    text-align: center;
+    margin: 0 20%;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     align-items: center;
+
+} 
+
+.part-1 img {
+
+    width: 70%;
+    border-radius: 25px;
+
+}
+
+.part-2 {
+    padding-top: 10rem;
+    margin: 0 25%;
     text-align: center;
 }
 
-.see-1 img {
-    width: 80%;
-    margin-top: 2vh;
-    border-radius: 15px;
-}
-
-
-.see-3, .see-2 {
+.part-2 ul {
+    margin: 0;
+    padding: 2rem 0 0 0 ;
     text-align: center;
+    list-style-type: none;
+}
+
+.part-2 ul li {
+    padding-bottom: 2rem;
+}
+
+.part-2 h4 {
+    padding: 0.5rem 0;
+}
+
+.part-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 10rem;
+    margin: 0 15%;
+    text-align: center;
+}
+
+.part-3 > p {
+    padding: 0 15%;
 
 }
 
-
-.see-3 .row {
-
+.list {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.see-3 > p {
-    padding: 0 25%;
-}
-
-.see-4 {
+.part-4 {
+    margin: 0 15%;
     display: flex;
-    justify-content: space-between;
-    gap: 5vw;
-
-} .see-4 > div {
-
-    width: 50%;
+    gap: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
-.see-4 img {
+.part-4 img {
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 25px;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -115,7 +100,7 @@ section {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .row {
@@ -126,23 +111,8 @@ section {
 } 
 
 .nons {
-    opacity: 0.25;
+    filter: blur(2px);
     z-index: -1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.but i {
-    font-size: 32px;
 }
 
 .left {
@@ -151,6 +121,10 @@ section {
 
 .right {
     text-align: right;
+}
+
+.center {
+    text-align: center;
 }
 
 .box {
@@ -164,8 +138,7 @@ section {
 .but p {
     text-decoration: none ;
     color: var(--cool);
-    font-weight: 800;
-    padding: 0 5px;
+    font-weight: 900;
 }
 
 .but svg {
@@ -182,6 +155,29 @@ section {
     border-radius: 15px;
 }
 
-h2 {
-    color: var(--bold);
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 724px) {
+    .part-1, .part-2, .part-3, .part-4  {
+        margin: 0 1rem;
+    }
+    .list, .part-4 {
+        flex-direction: column;
+    }
+    .part-1 img {
+        width: 100%;
+    }
+    .part-3 > p {
+        padding: 0;
+    }
+ 
 }
