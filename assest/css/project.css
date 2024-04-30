@@ -145,6 +145,7 @@ a:hover {
     .text {
         text-align: center;
         width: 100%;
+        padding: 0;
     }
 
     .text h1 {
@@ -153,6 +154,12 @@ a:hover {
 
     .text p {
         font-size: 20px;
+    }
+
+    .card {
+        margin-top: 25%;
+        width: 100%;
+        padding: 0;
     }
 
 }
