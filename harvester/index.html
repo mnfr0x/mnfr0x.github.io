@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Harvester 0.1</title>
+		<link rel="stylesheet" href="./style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+
+	</head>
+
+    <style>
+        @media only screen and (max-width: 724px) {
+			.profile, .dashboard {
+				display: none;
+			}
+			.erorr {
+				display: flex;
+				width: 100%;
+				height: 100vh;
+				align-items: center;
+				justify-content: center;
+				justify-items: center;
+				flex-direction: column;
+				padding: 0 3rem;
+				text-align: center;
+			}
+        }
+    </style>
+
+	<body>
+		<div class="erorr">
+			<h2>Under development !</h2>
+			<p>
+				does not work on mobile devices.			
+			</p>
+		</div>
+		<div class="profile">
+			<h1>HARVESTER 0.1</h1>
+			<p>
+				You are using early versions and this app is under development, <br> 
+				some features may not work properly and some may not be activated yet...
+			</p>
+			<img src="./nft.gif" alt="">
+			<button class="but meta" id="connectButton">
+				Connect Metamask
+			</button>
+		</div>
+		<div class="dashboard">
+			<div class="stats box">	
+				<h2>
+					Project details
+				</h2>
+				<p class="about">
+					Dazed Symbiotes
+				</p>
+				<ul>
+					<li>
+						<b>Contract balance:</b><span id="contract-yield"> n/a</span>
+					</li>
+					<li>
+						<b>Latest item: </b><span id="latest">n/a</span>
+					</li>
+					<li>
+						<b>Yield: </b><span>2.5%</span>
+					</li>
+				</ul>
+			</div>
+			<div class="flex">
+				<div class="box hidd">
+					<h2>
+						Owned: <span id="owned"></span>
+					</h2> 
+					<p class="about">
+						Review the entity that belongs to you.
+					</p>
+					<ul id="onwed-items">
+					</ul>
+				</div>
+				<div class="box">
+					<h2>
+						Leaderboard:
+					</h2>
+					<p class="about">
+						Ranking of the top ethereum keepers.
+					</p>
+					<ul>
+						<li>
+							not available yet... :(
+						</li>
+					</ul>
+				</div>
+				<div class="box">
+					<h2>
+						Last items:
+					</h2>
+					<p class="about">
+						The last ones that received shares.
+					</p>
+					<ul>
+						<li>
+							not available yet... :(
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="flex">
+				<div class="box">
+					<h2>
+						Harvest:
+					</h2>
+					<p class="about">
+						Extraction from entities by owner.
+					</p>
+					<form onsubmit="return false;" style="padding: 1rem 0;">
+						<input type="number" id="harvest-token" placeholder="1">
+						<input class="but" onclick="harvest();" type="submit" value="Withdraw">
+					</form>
+					<a id="txLink" href="#" target="_blank"></a>				
+				</div>
+				<div class="box">
+					<h2>
+						Check:
+					</h2>
+					<p class="about">
+						Identifying the amount collected by the creatures.
+					</p>
+					<form onsubmit="return false;" style="padding-top: 1rem;">
+						<input type="number" id="check-token" placeholder="1">
+						<input class="but" onclick="check();" type="submit" value="Get Value">
+					</form>
+					<ul>
+						<li id="checked" style="list-style-type: none;"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
