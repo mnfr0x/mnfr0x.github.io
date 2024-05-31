@@ -152,7 +152,8 @@ async function harvest() {
 				alert("There is no ethereum in this item yet.");
 				return null;
 			}
-			if (address = account) {
+			
+			if (address == account) {
 				const transaction = await contract.methods.harvest(token).send({from: account});
 				const txHash = transaction.transactionHash;
 				const txLink = document.getElementById("txLink");
