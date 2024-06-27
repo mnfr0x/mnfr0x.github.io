@@ -49,11 +49,21 @@ p, a, h3 {
     width: 30vw;
     opacity: 0;
     transition: all 2s ease-in-out;
+    animation: fade 3s;
 } 
 
 .main:hover {
     opacity: 1;
 
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    } 
+    75% {
+        opacity: 1;
+    }
 }
 
 
