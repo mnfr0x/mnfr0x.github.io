@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MNFR</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="icon" href="./assest/dark.png" type="image/x-icon">
+        <link rel="icon" href="./assest/light.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+
+        <style>
+            @media only screen and (max-width: 724px) {
+                header {
+                    padding: 1rem;
+                    flex-direction: column;
+                }
+
+                .media {
+                    position: absolute;
+                    bottom: 1rem;
+                }   
+
+                .side {
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+                .logo {
+                    display: none;
+                }
+
+                .mini {
+                    bottom: 15vw;
+                    top: unset;
+                    width: 10vw;
+                }
+
+                .main {
+                    opacity: 1;
+                    width: 75vw;
+                    top: 50%;
+                }
+
+                .point, .circle, .more{
+                    display: none;
+                }
+
+                nav a {
+                    font-size: 5vw;
+                    text-transform: uppercase;
+                }
+                
+                nav {
+                    width: 100%;
+                    gap: 1rem;
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="point"></div>
+        <div class="circle"></div>
+        <div class="bg"></div>
+
+        <img class="mini" src="./assest/mini.png" alt="">
+        <img class="main" src="./assest/m.png" alt="">
+        <img class="more" src="./assest/sin.png" alt="">
+
+        <header>
+            <div class="side">
+                <div class="logo">
+                    <p>0xMNFR</p>
+                </div>  
+                <nav>
+                    <a target="_blank" href="https://dazedbio.com/"><span>⌥ </span>Dazed Symbiotes<span> "</span></a>
+                    <a target="_blank" href="https://dazedbio.com/harvester"><span>⌥ </span>Harvester<span> "</span></a>
+                    <a target="_blank" href="https://opensea.io/mnfr"><span>⌥ </span>Opensea<span> "</span></a>
+                </nav>
+            </div>
+            <div class="media">
+                <a target="_blank" href="https://x.com/0xMNFR"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://discord.gg/xDp8TdGsfE"><i class="fab fa-discord"></i></a>
+                <a target="_blank" href="https://instagram.com/mnfr0x"><i class="fas fa-camera"></i></a>
+            </div>
+        </header>
+        <script src="./script.js"></script>
+    </body>
+</html>
