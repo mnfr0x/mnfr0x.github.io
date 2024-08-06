@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis');
+
+body {
+    background: #000000;
+    font-family: 'Dosis';
+    color: #777777;
+}
+
+.card {
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+    padding: 25px;
+}
+
+.card .link {
+    margin-top: 50px;
+}
+
+.card a {
+    border-bottom: 1px solid #777777;
+    padding: 1rem;
+    color: unset;
+    transition:  1s;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card a:hover {
+    border-bottom: 5px solid white;
+
+    padding: 1rem 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.card img {
+    width: 50%;
+    padding-bottom: 25px;
+}
